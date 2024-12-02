@@ -1,0 +1,110 @@
+/*============================================
+                GERAL
+==============================================*/
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    font-family: "Cabin", sans-serif
+}
+/*=================================================
+                TOPO
+==================================================*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header ul {
+    display: flex;
+}
+header ul li img {
+    margin: -0.6vw 0 0 0;
+}
+header li {
+    padding: 2vw;
+}
+header div {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header a {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+header span.branco a {
+    color: #FBBC05;
+}
+header span.amarelo a {
+    background-color: #FBBC05;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+}
+/*==================================================
+                CONTEÚDO
+===================================================*/
+.um {
+    display: flex;
+    margin: 3vw 0 0 0;
+    justify-content: center;
+    background: url(../atvTaxidevWeb/src/Heroo.png);
+}
+.um ul {
+    display: flex;
+    margin: 4vw 0 0 0;
+}
+.um h1 {
+    font-size: 3rem;
+    margin: 7vw 0 0 0;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #252B42;
+}
+.um div {
+    margin: 0 2vw 0 2vw;
+}
+.um p {
+    margin: 1.5vw 0 0 0;
+}
+.um a span.fa-brands {
+    font-size: 2em;
+    padding: 0 10px 0 0;
+}
+.um a {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.um li {
+    margin: 0 2vw 0 2vw;
+    background-color:#252B42;
+    padding: 1vw 2vw;
+    border-radius: 18px;
+}
+.dois h1{
+    text-align: center;
+    margin: 6vw 0 0 0;
+    font-weight: 700;
+}
+.dois p.oi {
+    text-align: center;
+    margin: 1vw 0 8vw 0;
+}
+.dois h1 {
+    font-size: 3rem;
+}
+.dois div {
+    display: flex;
+    justify-content: center;
+    margin: 0 4vw 0 4vw;
+}
+.dois div ul li span.fa-regular {
+    font-size: 2rem;
+    color: #FBBC05;
+}
+span.fa-solid{
+    font-size: 2rem;
+}
