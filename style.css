@@ -104,7 +104,49 @@ header span.amarelo a {
 .dois div ul li span.fa-regular {
     font-size: 2rem;
     color: #FBBC05;
+    background-color: #E1F4FF;
+    padding: 1.5vw 1.5vw;
+    border-radius: 10px;
 }
 span.fa-solid{
     font-size: 2rem;
+    color: #FBBC05;
+    background-color: #E1F4FF;
+    padding: 1.5vw 1.5vw;
+    border-radius: 10px;
+}
+.dois ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dois ul li {
+    width: 50%;
+}
+.dois div.divisao {
+    margin: 0 0 0 40px;
+}
+.download {
+    background-color: #FBBC05;
+    padding: 6vw;
+    margin: 8vw 12vw;
+    border-radius: 2vw;
+    color: white;
+}
+.download h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 3vw 0;
+}
+.download p {
+    width: 40%;
+}
+.download a {
+    color: white;
+    background-color: #252B42;
+    padding: 20px 35px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 3vw 0 0 0;
 }
